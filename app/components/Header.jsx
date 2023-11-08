@@ -20,7 +20,7 @@ function Header() {
         </div>
         <div className="hidden lg:flex">
           <ul className='flex gap-6 items-center text-lg font-semibold cursor-pointer'>
-            <Link href="/home">
+            <Link href="/">
               <li className='hover:underline'>Home</li>
             </Link>
             <Link href="/work">
@@ -40,11 +40,11 @@ function Header() {
           </ul>
         </div>
         <div onClick = {()=> setNav(!nav)} className="z-10 cursor-pointer lg:hidden">
-          {nav ? <MdOutlineCancel size={30} className="text-3xl"/> : <HiMenu size={30} className="text-3xl"/>}
+          {nav ? <MdOutlineCancel size={30} className="text-3xl text-black"/> : <HiMenu size={30} className="text-3xl text-black"/>}
 
           {nav && (
-            <ul className='flex flex-col gap-6 justify-center items-center text-xl font-semibold cursor-pointer absolute top-0 left-0 h-screen bg-gradient-to-b from-black to-gray-800 p-4'>
-            <Link href="/home">
+            <ul className='flex flex-col gap-6 justify-center items-center text-xl font-semibold cursor-pointer absolute top-0 left-0 h-screen w-screen bg-gradient-to-b from-black to-gray-800 p-4'>
+            <Link href="/">
               <li onClick={closeMenu} className='hover:underline text-white my-2'>Home</li>
             </Link>
             <Link href="/work">
