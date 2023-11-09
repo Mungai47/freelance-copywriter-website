@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div> 
       </div>
-      <div className="bg-cyan-green text-whitesmoke">
+      <div className="bg-cyan-green ">
         <div className='py-6 w-4/5 mx-auto'>
           <p className="text-white text-xl font-semibold text-center py-4">Some of the Amaizing Clients I have Worked With</p>
           <div className="grid grid-flow-col">
@@ -78,6 +78,15 @@ export default function Home() {
               height={200}
               className="py-4"
             />
+          </div>
+        </div>
+      </div>
+      <div className="bg-whitesmoke text-black">
+        <div className='w-4/5 mx-auto'>
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div>
+
+            </div>
           </div>
         </div>
       </div>       
