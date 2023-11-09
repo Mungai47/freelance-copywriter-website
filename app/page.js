@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import { FaLongArrowAltRight } from 'react-icons/fa'
 
 export default function Home() {
