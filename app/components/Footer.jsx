@@ -1,8 +1,12 @@
-import React from 'react'
+
 
 function Footer() {
+  const year = new Date().getFullYear();
+
   return (
-    <div>Footer</div>
+    <footer className="bg-cyan-green text-white text-center py-4">
+      <p>© {year} Your Company Name. All rights reserved.</p>      
+    </footer>
   )
 }
 
