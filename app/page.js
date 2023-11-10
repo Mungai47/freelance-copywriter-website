@@ -8,7 +8,7 @@ export default function Home() {
         <div className="w-4/5 mx-auto grid grid-rows-2 lg:grid-rows-1 grid-cols-1 lg:grid-cols-2 lg:h-screen">
           <div className="flex flex-col justify-center">
             <h1 className='text-4xl font-bold md:text-6xl lg:text-7xl lg:font-extrabold py-4'>
-              Hello I'm Leah.<br/>
+              Hello I&apos;m Leah.<br/>
               A Freelance Copywriter.
             </h1>
             <p className='text-base font-medium py-4'>
